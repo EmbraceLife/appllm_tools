@@ -16,7 +16,10 @@ mamba deactivate
 ```
 git clone git@github.com:AnswerDotAI/fasthtml.git
 cd fasthtml
-pip install -e .
+pip install -e . (issue 3: it will require you to update python >= 3.10, run the line below to solve this issue)
+mamba install "python>=3.10"
+pip install -e . (now, should run without a problem and fasthtml is install properly)
 cd examples
-python basic_app.py (should work now)
+python basic_app.py (should work now. issue 4: But if you use vpn, then turn it off and refresh the page. The first time starting the app will take a little time, but the second time is smooth)
+ctrl + c (issue 5: to quit the app properly)
 ```
