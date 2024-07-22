@@ -29,3 +29,7 @@ ctrl + c (issue 5: to quit the app properly)
 
 ```
 
+## learn fasthtml with custom chatgpt
+https://chatgpt.com/g/g-xPqF9SZjM-fasthtml-helper
+
+
